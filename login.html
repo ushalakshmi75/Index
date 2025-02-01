@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+    <div style="width:100%;height: 500px;background-color:rgb(231, 228, 37);float: center;">
+    <form>
+        <table >
+            <tr>
+                <td><label style="color: rgb(60, 0, 255);" for="hello">Enter your name</label></td>
+                <td>:</td>
+                <td><input type="text" placeholder="name" required size="5" id="hello" minlength="2" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label style="color: rgb(252, 71, 0);" for="mail">enter your Gmail</label></td>
+                <td>:</td>
+                <td><input type="email" placeholder="email" id="mail" pattern="[A-Z][a-zA-ZO-9]{3}[@#$%^&*!][a-zA-ZO-9._%+-]+gmail\.com" required></td>
+            </tr>
+            <tr>
+                <td><label style="color: magenta;" for="pin">your otp is</label></td>
+                <td>:</td>
+                <td><input type="text" value="number" placeholder="otp" required size="6" id="pin" minlength="6"></td>
+            </tr>
+            <tr>
+                <td><label style="color: rgb(60, 0, 255);" for="num">enter your number</label></td>
+                <td>:</td>
+                <td><input type="number" min="0" max="100" placeholder="num" id="num"></td>
+            </tr>
+            <tr>
+                <td><label style="color: forestgreen;" for="number">enter mobile number</label></td>
+                <td>:</td>
+                <td><input type="tel" placeholder="mobile" id="number"></td>
+            </tr>
+            <tr>
+                <td><label style="color: brown;" for="image">image</label></td>
+                <td>:</td>
+                <td><input type="file" placeholder="image" accept="image/*" id="image"  multiple></td>
+            </tr>
+            <tr>
+                <td><label style="color: cyan;" for="password">enter your password</label></td>
+                <td>:</td>
+                <td><input type="password"></td><br>
+            </tr>
+            <tr >
+                <td></td>
+                <td ><input type="submit" value="login">
+                </td><td><input type="reset" value="clear"></td>
+            </tr>
+        
+        </table>
+    </form></div>
+    </h1>
+</body>
+</html>
