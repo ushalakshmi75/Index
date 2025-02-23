@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            color: pink;
+            font-size: 100px;
+        }
+        div::first-line{
+            color: blue;
+        }
+        p::before{
+            content: "BELIEVE IN YOURSELF WHAT EVER YOU FELT";
+            background-color:yellowgreen;
+            color: palevioletred;
+        }
+        h1::after{
+            content: "ALWAYS SEEMS POSSIBLE UNTIL ITS DONE";
+            color: green;
+        }
+        p::selection{
+            background-color: aqua;
+        }
+        div{
+        width: 40%;
+        height: 300px;
+     }
+     #ab{
+        background-image: linear-gradient(pink,yellow,blue,green,red,violet);
+        float: left;
+     }
+     #ba{
+        background-image: radial-gradient(blue,orange,gold,black,rgb(128, 0, 96),red,rgb(21, 141, 125));
+        float: right;
+     }
+     #ca{
+        background-image: conic-gradient(purple,green,white,yellow,blue,gold,orange);
+        float: left;
+        box-shadow: 60px 50px 0px pink;
+
+     } 
+     div{
+    width: 40%;
+    height: 300px;
+    background-color: aqua;
+    box-shadow: 30px 40px 10px red;
+    border-radius: 50px 30px 90px 100px;
+ }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nobis porro voluptatem dignissimos! Reprehenderit quos nihil nostrum molestiae dignissimos fuga eligendi architecto temporibus. Quae, id ipsam perspiciatis velit cum non.</div>
+    <h1>Consistency</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex necessitatibus nostrum minima aliquam cum minus harum mollitia alias enim tempora corrupti exercitationem, deleniti quia, placeat debitis quidem sed modi!</p>
+    <span>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cum ex voluptas optio, ut earum amet at eligendi pariatur dignissimos voluptatibus assumenda commodi beatae similique adipisci voluptate? Tempore, ad quia!
+    </span> 
+    <div id="ab">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dicta officia id eos non mollitia. Architecto quas atque laborum molestiae, repellat officiis cum consequatur ad! Nihil neque voluptas voluptate voluptatem.</div>
+    <div id="ba"></div>
+    <div style="float: left;width: 20%;"></div>
+    <div style="float: left;width: 30%;"></div>
+<center>
+<div id="ca"></div>
+</center>
+<div>
+
+</div>
+
+</body>
+</html>
+</body>
+</html>
